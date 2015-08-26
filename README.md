@@ -1,0 +1,1 @@
+This is my exercises while reading "Beginning Javascript by Jeremy McPeak". 
