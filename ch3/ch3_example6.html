@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+	<title>Chapter 3, Example 5</title>  
+  </head>
+  <body>
+	<script>
+	  var degFahren = [212, "string data", -459.15];
+	  var degCent = [];
+	  var loopCounter;
+	  
+	  for (loopCounter = 0; loopCounter <= 2; loopCounter++) {
+	    if (isNaN(degFahren[loopCounter])) {
+		  alert("Data '" + degFahren[loopCounter] + " ' at array index " +
+		    loopCounter + " is invalid");
+		  continue;
+		}
+		
+		degCent[loopCounter] = 5/9 * (degFahren[loopCounter] - 32);
+		document.write(degCent[loopCounter] + "<br />");
+	  }
+	</script>
+  </body>
+</html>
